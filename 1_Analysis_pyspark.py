@@ -18,17 +18,17 @@ print(os.listdir())
 
 ####################### Java installation #######################
 #Name of tarfile (without the .tar.gz extension)
-file_name = "jdk-11_linux-x64_bin"
+#file_name = "jdk-11_linux-x64_bin"
 
 #Target directory
-target_dir = "mydirectory"
+#target_dir = "mydirectory"
 
 
 #Extract the tar file
-os.system("tar -xf " + file_name + ".tar.gz")
+#os.system("tar -xf " + file_name + ".tar.gz")
 
 #Move the tar files into your target folder
-os.system("mv " + file_name + " " + target_dir)
+#os.system("mv " + file_name + " " + target_dir)
 
 ############### Custom Functions ###############
 
