@@ -12,6 +12,10 @@ from pyspark.sql import functions as F
 import os
 import sys
 
+print(os.getcwd())
+
+print(os.listdir())
+
 ####################### Java installation #######################
 #Name of tarfile (without the .tar.gz extension)
 file_name = "jdk-11_linux-x64_bin"
